@@ -3,8 +3,6 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthContext";
 
-console.log(process.env.REACT_APP_API_URL);
-
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
